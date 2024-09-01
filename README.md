@@ -2,26 +2,10 @@
 code : 
 
 import random
+यह एक छोटी-सी कहानी है जिसका नाम है "चमत्कारी बांसुरी":
 
-def guess_number():
-    number_to_guess = random.randint(1, 10)
-    attempts = 0
-    print("Welcome to the Number Guessing Game!")
-    print("Guess a number between 1 and 10.")
-    
-    while True:
-        try:
-            user_guess = int(input("Enter your guess: "))
-            attempts += 1
-            
-            if user_guess < number_to_guess:
-                print("Too low! Try again.")
-            elif user_guess > number_to_guess:
-                print("Too high! Try again.")
-            else:
-                print(f"Congratulations! You've guessed the correct number in {attempts} attempts.")
-                break
-        except ValueError:
-            print("Please enter a valid number.")
+गांव के किनारे एक छोटा सा लड़का, राघव, रहता था। वह गरीब था लेकिन बहुत खुशमिजाज और ईमानदार था। राघव को संगीत बहुत पसंद था, लेकिन उसके पास खुद का कोई वाद्य यंत्र नहीं था।
 
-guess_number()
+एक दिन वह जंगल में लकड़ियां बटोरने गया। वहां उसे एक बूढ़े साधु मिले। साधु ने राघव की सादगी और ईमानदारी से प्रभावित होकर उसे एक बांसुरी दी और कहा, "यह बांसुरी साधारण नहीं है, जब भी तुम इसे दिल से बजाओगे, कोई चमत्कार होगा।"
+
+राघव ने बांसुरी लेकर उसे खुशी से बजाना शुरू किया। जैसे ही उसने बांसुरी बजाई, उसके सामने ढेर सारी मिठाइयाँ और फल प्रकट हो गए। राघव हैरान था, लेकिन वह समझ गया कि साधु की बात सच थी।
